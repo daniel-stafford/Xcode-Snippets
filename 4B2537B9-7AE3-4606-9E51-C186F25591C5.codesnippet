@@ -9,32 +9,33 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-
-class &lt;#name#&gt;: UIView {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        configure()
+	<string>import XCTest
+ 
+@testable import &lt;#filename#&gt;
+ 
+class Test: XCTestCase {
+    var vc: ViewController!
+ 
+    override func setUp() {
+        super.setUp()
+        vc = ViewController()
+        vc.loadViewIfNeeded()
     }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-    private func configure() {
-        translatesAutoresizingMaskIntoConstraints = false
-        backgroundColor = .red
+ 
+    func testShouldBeVisible() throws {
+        let isViewLoaded = vc.isViewLoaded
+        XCTAssertTrue(isViewLoaded)
     }
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F63F5CDE-36E3-4443-8C60-218692A28134</string>
+	<string>4B2537B9-7AE3-4606-9E51-C186F25591C5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Unit Test</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

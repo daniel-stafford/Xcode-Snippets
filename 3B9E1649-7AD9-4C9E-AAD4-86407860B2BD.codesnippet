@@ -3,32 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-
-extension UIView {
-    
-    func addSubviews(_ views: UIView...) {
-        for view in views { addSubview(view) }
-    }
-}
+	<string>    // MARK: &lt;#code#&gt;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>42F2A00F-39F2-4B22-AEA3-791B7539EA9D</string>
+	<string>3B9E1649-7AD9-4C9E-AAD4-86407860B2BD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Subviews</string>
+	<string>Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

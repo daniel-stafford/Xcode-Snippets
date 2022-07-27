@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>extuiview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -12,20 +12,29 @@
 	<string>import UIKit
 
 extension UIView {
-    
+    /// ... turns parameters into array (variadic)
     func addSubviews(_ views: UIView...) {
         for view in views { addSubview(view) }
     }
+	func pinToEdges(of superview: UIView) {
+		translatesAutoresizingMaskIntoConstraints = false
+		NSLayoutConstraint.activate([
+			topAnchor.constraint(equalTo: superview.topAnchor),
+			leadingAnchor.constraint(equalTo: superview.leadingAnchor),
+			trailingAnchor.constraint(equalTo: superview.trailingAnchor),
+			bottomAnchor.constraint(equalTo: superview.bottomAnchor)
+		])
+	}
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>42F2A00F-39F2-4B22-AEA3-791B7539EA9D</string>
+	<string>274819B8-EAB7-4FF8-964E-E8EC38BA7700</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Subviews</string>
+	<string>Extensions UIView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

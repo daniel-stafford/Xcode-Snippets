@@ -11,24 +11,23 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 
-extension UIView {
-    
-    func addSubviews(_ views: UIView...) {
-        for view in views { addSubview(view) }
+extension UIStackView {
+    func addArrangedSubviews(_ views: UIView...) {
+        for view in views { addArrangedSubview(view) }
     }
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>42F2A00F-39F2-4B22-AEA3-791B7539EA9D</string>
+	<string>A3B8D4FD-ABA9-4D29-8E3C-3A0DEEA45E35</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Subviews</string>
+	<string>Add stack views</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
