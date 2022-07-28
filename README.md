@@ -7,3 +7,5 @@ Snippets for XCode can be found in the following directory.
 ```bash
 $ cd ~/Library/Developer/Xcode/UserData/CodeSnippets
 ```
+
+Snippets include the following:
