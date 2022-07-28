@@ -3,31 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>Addtarget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
-
-extension UIStackView {
-    func addArrangedSubviews(_ views: UIView...) {
-        for view in views { addArrangedSubview(view) }
-    }
-}
-</string>
+	<string>&lt;#button#&gt;.addTarget(self, action: #selector(&lt;#func#&gt;), for: .touchUpInside)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>173827DB-EB11-443B-BC45-D79D51F1686F</string>
+	<string>5487E3D2-8721-4086-8058-8AA0EB6C42A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Add Target for Button Tap</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>ps</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: &lt;#code#&gt;
-</string>
+	<string>print("🔥 &lt;#description#&gt;: \(&lt;#variable#&gt;)" )</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B9E1649-7AD9-4C9E-AAD4-86407860B2BD</string>
+	<string>17E7D332-F788-48FD-AE61-A3A1754A3722</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>A more visable print statement</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark</string>
+	<string>Print Statement</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
