@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ps</string>
+	<string>si</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>print("🔥 &lt;#description#&gt;: \(&lt;#variable#&gt;)" )</string>
+	<string>\(&lt;#variable#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>17E7D332-F788-48FD-AE61-A3A1754A3722</string>
+	<string>0D58D3D7-79C7-4823-9DB8-7AE902A145A4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>A more visable print statement</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Print Statement</string>
+	<string>String Interpolation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
