@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 
-class &lt;#name#&gt;: &lt;#extends#&gt; {
+class &lt;#name#&gt;: &lt;#inherits#&gt; {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
