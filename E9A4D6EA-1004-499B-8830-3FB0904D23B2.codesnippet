@@ -9,7 +9,9 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#name#&gt;: UIViewController {
+	<string>import UIKit
+
+class &lt;#name#&gt;: UIViewController {
     
     let stackView = UIStackView()
     let label = UILabel()
@@ -25,6 +27,9 @@
 extension &lt;#name#&gt; {
     
     func style() {
+
+        view.backgroundColor = .systemBackground
+
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
@@ -37,7 +42,7 @@ extension &lt;#name#&gt; {
     
     func layout() {
         
-        stackView.addSubviews(label)
+        stackView.addArrangedSubviews(label)
         view.addSubviews(stackView)
         
         NSLayoutConstraint.activate([
@@ -60,6 +65,6 @@ extension &lt;#name#&gt; {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
