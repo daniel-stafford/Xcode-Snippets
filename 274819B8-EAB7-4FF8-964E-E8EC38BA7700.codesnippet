@@ -9,22 +9,34 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import UIKit
+	<string>extension UIView {
 
-extension UIView {
-    /// ... turns parameters into array (variadic)
     func addSubviews(_ views: UIView...) {
+
         for view in views { addSubview(view) }
     }
-	func pinToEdges(of superview: UIView) {
-		translatesAutoresizingMaskIntoConstraints = false
-		NSLayoutConstraint.activate([
-			topAnchor.constraint(equalTo: superview.topAnchor),
-			leadingAnchor.constraint(equalTo: superview.leadingAnchor),
-			trailingAnchor.constraint(equalTo: superview.trailingAnchor),
-			bottomAnchor.constraint(equalTo: superview.bottomAnchor)
-		])
-	}
+
+    func pinToEdges(of superview: UIView) {
+
+        translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            topAnchor.constraint(equalTo: superview.topAnchor),
+            leadingAnchor.constraint(equalTo: superview.leadingAnchor),
+            trailingAnchor.constraint(equalTo: superview.trailingAnchor),
+            bottomAnchor.constraint(equalTo: superview.bottomAnchor)
+        ])
+    }
+
+    func pinToSafeAreaEdges(of superview: UIView) {
+
+        translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            topAnchor.constraint(equalTo: superview.safeAreaLayoutGuide.topAnchor),
+            leadingAnchor.constraint(equalTo: superview.safeAreaLayoutGuide.leadingAnchor),
+            trailingAnchor.constraint(equalTo: superview.safeAreaLayoutGuide.trailingAnchor),
+            bottomAnchor.constraint(equalTo: superview.safeAreaLayoutGuide.bottomAnchor)
+        ])
+    }
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
