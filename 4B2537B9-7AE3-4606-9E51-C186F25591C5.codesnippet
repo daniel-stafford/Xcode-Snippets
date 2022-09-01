@@ -9,20 +9,23 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import XCTest
+	<string>import UIKit
+import XCTest
  
 @testable import &lt;#filename#&gt;
  
-class Test: XCTestCase {
+class &lt;#name#&gt;: XCTestCase {
+    
     var vc: ViewController!
  
     override func setUp() {
+        
         super.setUp()
         vc = ViewController()
-        vc.loadViewIfNeeded()
     }
  
     func testShouldBeVisible() throws {
+        
         let isViewLoaded = vc.isViewLoaded
         XCTAssertTrue(isViewLoaded)
     }
