@@ -15,7 +15,6 @@ class &lt;#name#&gt;: &lt;#inherits#&gt; {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         style()
         layout()
     }
@@ -25,22 +24,18 @@ class &lt;#name#&gt;: &lt;#inherits#&gt; {
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 200, height: 200)
+        return CGSize(width: &lt;#int#&gt;, height: &lt;#int#&gt;)
     }
 }
 
 extension &lt;#name#&gt; {
     
     private func style() {
-        
         translatesAutoresizingMaskIntoConstraints = false
-        
     }
     
     private func layout() {
-        
         view.addSubviews()
-            
         NSLayoutConstraint.activate([
             
         ])
